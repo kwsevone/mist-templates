@@ -120,7 +120,7 @@ node_templates:
       parameters:
         cloud_id: "66af86da810d4d7d83a9fbb828e0637a"
         image_id: "503e74df-fae9-675e-e4b1-e0ff92f76f27"
-        size: {cpu: 2, ram: 4096}
+        size_id: {cpu: 2, ram: 4096}
         location_id: "f922e348c5c1411ca5e1b3da8e882789"
         networks: "1f82147dcd3c4cdeb371ab4335930f75"
         name: { get_input: mist_name }
